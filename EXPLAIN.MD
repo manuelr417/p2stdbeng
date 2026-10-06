@@ -219,7 +219,7 @@ from a full page moves it back to the free list.
 
 ### INSERT picks a page without walking
 
-INSERT stores each row into the free list's **head** page — the first page
+INSERT stores each row into the free list's **first** page — the first page
 in free-list order with a free slot — without visiting any other page. Only
 when the free list is empty does INSERT allocate a fresh page (id taken from
 `next_page_id`, which then advances), append it to the free list, and store
