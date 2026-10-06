@@ -70,7 +70,7 @@ Two binaries share the library code:
 - `p2stdbeng` — the check suite (`main.cpp`): catalog, parser, binder,
   executor, and storage checks, including the structural self-check run
   after every operation of the storage tests.
-- `p2stdbeng_demo` — the SQL session (`p2dbeng_demo.cpp`): a REPL over the
+- `p2stdbeng_demo` — the SQL session (`p2stdbeng_demo.cpp`): a REPL over the
   engine, one buffer manager (LRU, 8 frames) per session.
 
 ## Building
