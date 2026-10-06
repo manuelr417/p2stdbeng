@@ -65,7 +65,6 @@ step that caused it.
 | `schema/` | Table schema, JSON catalog I/O, the tuple serializer, CSV bulk load, a row generator |
 | `sql/` | SQL lexer, parser, AST (with a printer and a draw helper) |
 | `exec/` | Binder (statements and expressions resolved against the catalog) and executors |
-| `openspec/` | Behavior specs per capability (what the storage must satisfy) |
 
 Two binaries share the library code:
 
