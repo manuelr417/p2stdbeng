@@ -12,6 +12,8 @@ them until the check suite passes. Everything else (block file, buffer
 manager, slotted pages, catalog, serializer, parser, binder, executors) is
 provided and must not change.
 
+**Due date: October 23, 2026, 11:59 PM.**
+
 ## What it does
 
 - **Storage**: a table is a heap file of fixed-width records in 4096-byte
