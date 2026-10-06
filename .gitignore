@@ -1,0 +1,8 @@
+build/
+cmake-build-debug/
+.DS_Store
+*.bin
+build-asan/
+tablecatalog_dbg/
+.idea/
+openspec/
